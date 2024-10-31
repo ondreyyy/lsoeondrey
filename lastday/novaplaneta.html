@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prezentace (LDOE)</title>
+    <link rel="stylesheet" href="novastyle.css">
+</head>
+<body>
+    <div class="center-content">
+        <a href="https://github.com/ondreyyy/lastday/blob/main/last%20day%20on%20the%20earth/styles.css" class="link">Klikněte pro otevření prezentace!</a>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            gsap.from(".center-content", { duration: 2, opacity: 0, y: -50 });
+        });
+    </script>
+</body>
+</html>
